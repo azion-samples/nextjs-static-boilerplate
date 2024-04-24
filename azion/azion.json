@@ -1,0 +1,58 @@
+{
+  "name": "nextjs-static-boilerplate",
+  "bucket": "nextjs-static-boilerplate",
+  "preset": "next",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240424165955",
+  "not-first-run": true,
+  "function": {
+    "id": 20758,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20393,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713979254,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713977995,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 127167,
+      "origin-key": "65911267-e3e6-42f5-8004-c8ed5a4ecdd7",
+      "name": "nextjs-static-boilerplate_single"
+    },
+    {
+      "origin-id": 127168,
+      "origin-key": "cf5ca5a6-6f3c-44e8-b7f4-38da2844d745",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 238413,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 238414,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 238415,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
